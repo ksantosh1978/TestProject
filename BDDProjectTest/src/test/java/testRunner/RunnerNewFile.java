@@ -17,7 +17,7 @@ import cucumber.api.junit.Cucumber;
  *
  */
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "C:\\automation\\Eclipse-workspace\\BDDProjectTest\\src\\main\\java\\FeatureFiles\\Contact.feature", // the
+@CucumberOptions(features = "C:\\Users\\Adya\\git\\TestProject\\BDDProjectTest\\src\\main\\java\\FeatureFiles\\Contact.feature", // the
 																																	// path
 																																	// of
 																																	// the
