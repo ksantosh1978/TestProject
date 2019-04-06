@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="testRunner.RunnerNewFile" time="0.006" tests="11" errors="0" skipped="0" failures="0">
+<testsuite name="testRunner.RunnerNewFile" time="0.008" tests="1" errors="1" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin"/>
     <property name="java.vm.version" value="25.202-b08"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\automation\Eclipse-workspace\BDDProjectTest"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Adya\git\TestProject\BDDProjectTest"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\automation\Eclipse-workspace\BDDProjectTest"/>
+    <property name="user.dir" value="C:\Users\Adya\git\TestProject\BDDProjectTest"/>
     <property name="java.runtime.version" value="1.8.0_202-b08"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\endorsed"/>
@@ -26,9 +26,9 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\Adya\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4186792008491127607.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\Adya\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf8301922617363386259.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_202\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_202/bin/server;C:/Program Files/Java/jre1.8.0_202/bin;C:/Program Files/Java/jre1.8.0_202/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Adya\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Adya\Downloads\eclipse-java-mars-2-win32-x86_64\eclipse;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_202\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_202/bin/server;C:/Program Files/Java/jre1.8.0_202/bin;C:/Program Files/Java/jre1.8.0_202/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Adya\Downloads\geckodriver-v0.24.0-win64\;C:\Users\Adya\Downloads\chromedriver_win32\;C:\Program Files\dotnet\;C:\Users\Adya\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Adya\Downloads\eclipse-java-mars-2-win32-x86_64\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -52,7 +52,7 @@
     <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_202\jre\classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="C:\automation\Eclipse-workspace\BDDProjectTest\EMBEDDED"/>
+    <property name="maven.home" value="C:\Users\Adya\git\TestProject\BDDProjectTest\EMBEDDED"/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -60,15 +60,33 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="Given user is already on Login Page" classname="| ksantosh1978 | Iphone2953 | Tom | Peter | Manager |" time="0.002"/>
-  <testcase name="When title of login page is Free CRM" classname="| ksantosh1978 | Iphone2953 | Tom | Peter | Manager |" time="0"/>
-  <testcase name="Then user enters &quot;ksantosh1978&quot; and &quot;Iphone2953&quot;" classname="| ksantosh1978 | Iphone2953 | Tom | Peter | Manager |" time="0"/>
-  <testcase name="Then user clicks on login button" classname="| ksantosh1978 | Iphone2953 | Tom | Peter | Manager |" time="0"/>
-  <testcase name="Then user is on home page" classname="| ksantosh1978 | Iphone2953 | Tom | Peter | Manager |" time="0.002"/>
-  <testcase name="Then user moves to new contact page" classname="| ksantosh1978 | Iphone2953 | Tom | Peter | Manager |" time="0"/>
-  <testcase name="Then user enters contact details &quot;Tom&quot; and &quot;Peter&quot; and &quot;Manager&quot;" classname="| ksantosh1978 | Iphone2953 | Tom | Peter | Manager |" time="0"/>
-  <testcase name="Then user moves to new deal page" classname="| ksantosh1978 | Iphone2953 | Tom | Peter | Manager |" time="0"/>
-  <testcase name="Then user enters deal details" classname="| ksantosh1978 | Iphone2953 | Tom | Peter | Manager |" time="0"/>
-  <testcase name="Then Close the browser" classname="| ksantosh1978 | Iphone2953 | Tom | Peter | Manager |" time="0"/>
-  <testcase name="| ksantosh1978 | Iphone2953 | Tom | Peter | Manager |" classname="| ksantosh1978 | Iphone2953 | Tom | Peter | Manager |" time="0.002"/>
+  <testcase name="initializationError" classname="testRunner.RunnerNewFile" time="0.008">
+    <error message="Not a file or directory: C:\automation\Eclipse-workspace\BDDProjectTest\src\main\java\FeatureFiles\Contact.feature" type="java.lang.IllegalArgumentException"><![CDATA[java.lang.IllegalArgumentException: Not a file or directory: C:\automation\Eclipse-workspace\BDDProjectTest\src\main\java\FeatureFiles\Contact.feature
+	at cucumber.runtime.io.FileResourceIterator$FileIterator.<init>(FileResourceIterator.java:54)
+	at cucumber.runtime.io.FileResourceIterator.<init>(FileResourceIterator.java:20)
+	at cucumber.runtime.io.FileResourceIterable.iterator(FileResourceIterable.java:19)
+	at cucumber.runtime.model.CucumberFeature.loadFromFeaturePath(CucumberFeature.java:103)
+	at cucumber.runtime.model.CucumberFeature.load(CucumberFeature.java:54)
+	at cucumber.runtime.model.CucumberFeature.load(CucumberFeature.java:34)
+	at cucumber.runtime.RuntimeOptions.cucumberFeatures(RuntimeOptions.java:239)
+	at cucumber.api.junit.Cucumber.<init>(Cucumber.java:62)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.junit.internal.builders.AnnotatedBuilder.buildRunner(AnnotatedBuilder.java:29)
+	at org.junit.internal.builders.AnnotatedBuilder.runnerForClass(AnnotatedBuilder.java:21)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:26)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.requests.ClassRequest.getRunner(ClassRequest.java:26)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]></error>
+  </testcase>
 </testsuite>
