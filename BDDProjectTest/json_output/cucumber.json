@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8034269000,
+              "duration": 7579324700,
               "status": "passed"
             },
             "line": 5,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 8397300,
+              "duration": 5925500,
               "status": "passed"
             },
             "line": 6,
@@ -36,7 +36,7 @@
           },
           {
             "result": {
-              "duration": 517861600,
+              "duration": 164202500,
               "status": "passed"
             },
             "line": 7,
@@ -62,7 +62,7 @@
           },
           {
             "result": {
-              "duration": 2255311000,
+              "duration": 3983240600,
               "status": "passed"
             },
             "line": 8,
@@ -74,7 +74,7 @@
           },
           {
             "result": {
-              "duration": 6856300,
+              "duration": 5921600,
               "status": "passed"
             },
             "line": 9,
@@ -86,7 +86,7 @@
           },
           {
             "result": {
-              "duration": 1326420700,
+              "duration": 1601036000,
               "status": "passed"
             },
             "line": 10,
@@ -98,7 +98,7 @@
           },
           {
             "result": {
-              "duration": 1455796100,
+              "duration": 2089223800,
               "status": "passed"
             },
             "line": 11,
@@ -129,7 +129,7 @@
           },
           {
             "result": {
-              "duration": 911039100,
+              "duration": 926610900,
               "status": "passed"
             },
             "line": 12,
@@ -141,7 +141,7 @@
           },
           {
             "result": {
-              "duration": 304420100,
+              "duration": 410990300,
               "status": "passed"
             },
             "line": 13,
@@ -164,7 +164,7 @@
           },
           {
             "result": {
-              "duration": 708293800,
+              "duration": 611983500,
               "status": "passed"
             },
             "line": 15,
@@ -181,6 +181,6 @@
     "description": "",
     "id": "free-crm-create-contacts",
     "keyword": "Feature",
-    "uri": "C:/automation/Eclipse-workspace/BDDProjectTest/src/main/java/FeatureFiles/Contact.feature"
+    "uri": "C:/Users/Adya/git/TestProject/BDDProjectTest/src/main/java/FeatureFiles/Contact.feature"
   }
 ]
