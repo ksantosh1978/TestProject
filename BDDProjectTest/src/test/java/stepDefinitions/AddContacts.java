@@ -109,6 +109,12 @@ public class AddContacts {
 		driver.findElement(By.id("commission")).sendKeys(dealValues.get(0).get(3));
 
 	}
+	@Then("^user click on product page$")
+	public void user_click_on_product_page()
+	{
+		driver.findElement(By.xpath("//*[@id=\"navmenu\"]/ul/li[5]/ul/li[2]/a")).click();
+	}
+	
 
 	@Then("^Close the browser$")
 	public void close_the_browser() {

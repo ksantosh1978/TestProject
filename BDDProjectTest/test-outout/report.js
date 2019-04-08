@@ -188,14 +188,14 @@ formatter.match({
   "location": "AddContacts.user_already_on_login_page()"
 });
 formatter.result({
-  "duration": 8523996300,
+  "duration": 7222851000,
   "status": "passed"
 });
 formatter.match({
   "location": "AddContacts.title_of_login_page_is_free_CRM()"
 });
 formatter.result({
-  "duration": 6884100,
+  "duration": 5937100,
   "status": "passed"
 });
 formatter.match({
@@ -212,28 +212,28 @@ formatter.match({
   "location": "AddContacts.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 179348800,
+  "duration": 171584900,
   "status": "passed"
 });
 formatter.match({
   "location": "AddContacts.user_clicks_on_login_button()"
 });
 formatter.result({
-  "duration": 2510626600,
+  "duration": 2084799800,
   "status": "passed"
 });
 formatter.match({
   "location": "AddContacts.user_is_on_hopme_page()"
 });
 formatter.result({
-  "duration": 3987400,
+  "duration": 4381800,
   "status": "passed"
 });
 formatter.match({
   "location": "AddContacts.user_moves_to_new_contact_page()"
 });
 formatter.result({
-  "duration": 1204473800,
+  "duration": 1166498900,
   "status": "passed"
 });
 formatter.match({
@@ -254,28 +254,28 @@ formatter.match({
   "location": "AddContacts.user_enters_contacts_details(String,String,String)"
 });
 formatter.result({
-  "duration": 1548501200,
+  "duration": 1488401100,
   "status": "passed"
 });
 formatter.match({
   "location": "AddContacts.user_moves_to_new_deal_page()"
 });
 formatter.result({
-  "duration": 849932800,
+  "duration": 1004471300,
   "status": "passed"
 });
 formatter.match({
   "location": "AddContacts.user_enters_contacts_details(DataTable)"
 });
 formatter.result({
-  "duration": 271658100,
+  "duration": 286609300,
   "status": "passed"
 });
 formatter.match({
   "location": "AddContacts.close_the_browser()"
 });
 formatter.result({
-  "duration": 606119500,
+  "duration": 613930400,
   "status": "passed"
 });
 });

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="testRunner.RunnerNewFile" time="0.007" tests="11" errors="0" skipped="0" failures="0">
+<testsuite name="testRunner.RunnerNewFile" time="0.003" tests="11" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="JOB_NAME" value="BDDProject"/>
@@ -29,9 +29,10 @@
     <property name="BUILD_CAUSE_SCMTRIGGER" value="true"/>
     <property name="user.language" value="en"/>
     <property name="JOB_BASE_NAME" value="BDDProject"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://l192.168.0.2:8080/job/BDDProject/33/display/redirect?page=changes"/>
-    <property name="BUILD_DISPLAY_NAME" value="#33"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://l192.168.0.2:8080/job/BDDProject/35/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#35"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin"/>
+    <property name="GIT_PREVIOUS_SUCCESSFUL_COMMIT" value="092fde3e681795ec298a34aa2d4353909be45d05"/>
     <property name="LOCALAPPDATA" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local"/>
     <property name="java.version" value="1.8.0_202"/>
     <property name="PROCESSOR_LEVEL" value="6"/>
@@ -41,7 +42,7 @@
     <property name="NODE_NAME" value="master"/>
     <property name="PROCESSOR_ARCHITEW6432" value="AMD64"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\endorsed"/>
-    <property name="BUILD_ID" value="33"/>
+    <property name="BUILD_ID" value="35"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -55,12 +56,13 @@
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_202\jre"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="os.version" value="10.0"/>
-    <property name="RUN_DISPLAY_URL" value="http://l192.168.0.2:8080/job/BDDProject/33/display/redirect"/>
+    <property name="RUN_DISPLAY_URL" value="http://l192.168.0.2:8080/job/BDDProject/35/display/redirect"/>
     <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
     <property name="TMP" value="C:\WINDOWS\TEMP"/>
     <property name="path.separator" value=";"/>
     <property name="java.vm.version" value="25.202-b08"/>
     <property name="user.variant" value=""/>
+    <property name="GIT_PREVIOUS_COMMIT" value="092fde3e681795ec298a34aa2d4353909be45d05"/>
     <property name="JOB_DISPLAY_URL" value="http://l192.168.0.2:8080/job/BDDProject/display/redirect"/>
     <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
@@ -71,12 +73,12 @@
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="POM_PACKAGING" value="jar"/>
     <property name="user.script" value=""/>
-    <property name="SERVICE_ID" value="Jenkins"/>
     <property name="COMPUTERNAME" value="ADYA"/>
+    <property name="SERVICE_ID" value="Jenkins"/>
     <property name="POM_GROUPID" value="BDDProjectTest"/>
     <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile"/>
     <property name="PUBLIC" value="C:\Users\Public"/>
-    <property name="BUILD_TAG" value="jenkins-BDDProject-33"/>
+    <property name="BUILD_TAG" value="jenkins-BDDProject-35"/>
     <property name="JENKINS_SERVER_COOKIE" value="866c62213c245503"/>
     <property name="HUDSON_URL" value="http://l192.168.0.2:8080/"/>
     <property name="ProgramData" value="C:\ProgramData"/>
@@ -90,7 +92,7 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="maven.home" value="C:\Users\Adya\Downloads\apache-maven-3.6.0-bin\apache-maven-3.6.0"/>
     <property name="java.class.path" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.12.jar;C:\Users\Adya\Downloads\apache-maven-3.6.0-bin\apache-maven-3.6.0\boot\plexus-classworlds-2.5.2.jar;C:\Users\Adya\Downloads\apache-maven-3.6.0-bin\apache-maven-3.6.0/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\Adya\Downloads\apache-maven-3.6.0-bin\apache-maven-3.6.0 C:\Program Files (x86)\Jenkins\war\WEB-INF\lib\remoting-3.29.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12.jar 49989"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\Adya\Downloads\apache-maven-3.6.0-bin\apache-maven-3.6.0 C:\Program Files (x86)\Jenkins\war\WEB-INF\lib\remoting-3.29.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12.jar 50293"/>
     <property name="Path" value="C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Adya\Downloads\geckodriver-v0.24.0-win64\;C:\Users\Adya\Downloads\chromedriver_win32\;C:\Program Files\dotnet\;C:\Users\Adya\AppData\Local\Microsoft\WindowsApps;C:\Users\Adya\.dotnet\tools"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="PROCESSOR_ARCHITECTURE" value="x86"/>
@@ -105,7 +107,7 @@
     <property name="HUDSON_HOME" value="C:\Program Files (x86)\Jenkins"/>
     <property name="PATH+MAVEN" value="C:\Users\Adya\Downloads\apache-maven-3.6.0-bin\apache-maven-3.6.0/bin"/>
     <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
-    <property name="BUILD_URL" value="http://l192.168.0.2:8080/job/BDDProject/33/"/>
+    <property name="BUILD_URL" value="http://l192.168.0.2:8080/job/BDDProject/35/"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="os.arch" value="amd64"/>
@@ -117,14 +119,14 @@
     <property name="line.separator" value="&#10;"/>
     <property name="MAVEN_HOME" value="C:\Users\Adya\Downloads\apache-maven-3.6.0-bin\apache-maven-3.6.0"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="33"/>
+    <property name="BUILD_NUMBER" value="35"/>
     <property name="BASE" value="C:\Program Files (x86)\Jenkins"/>
     <property name="JENKINS_URL" value="http://l192.168.0.2:8080/"/>
     <property name="PROCESSOR_REVISION" value="4e03"/>
     <property name="GIT_BRANCH" value="origin/master"/>
     <property name="ProgramW6432" value="C:\Program Files"/>
     <property name="windir" value="C:\WINDOWS"/>
-    <property name="GIT_COMMIT" value="42e4452ca5a609a19c2f7b36dd7d6252960bce21"/>
+    <property name="GIT_COMMIT" value="ef64b6a03d9bc14464670c34cea481b27b50e608"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="SystemDrive" value="C:"/>
     <property name="maven3.interceptor" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12.jar"/>
@@ -138,11 +140,11 @@
     <property name=" JACOB_DLL_PATH" value="C:\Users\Adya\Downloads\jacob-1.19\jacob-1.19\jacob-1.19-x64.dll"/>
     <property name="GIT_URL" value="https://github.com/ksantosh1978/TestProject.git"/>
   </properties>
-  <testcase name="Given user is already on Login Page" classname="| ksantosh1978 | Iphone2953 | Tom | Peter | Manager |" time="0.004"/>
+  <testcase name="Given user is already on Login Page" classname="| ksantosh1978 | Iphone2953 | Tom | Peter | Manager |" time="0.001"/>
   <testcase name="When title of login page is Free CRM" classname="| ksantosh1978 | Iphone2953 | Tom | Peter | Manager |" time="0"/>
   <testcase name="Then user enters &quot;ksantosh1978&quot; and &quot;Iphone2953&quot;" classname="| ksantosh1978 | Iphone2953 | Tom | Peter | Manager |" time="0"/>
   <testcase name="Then user clicks on login button" classname="| ksantosh1978 | Iphone2953 | Tom | Peter | Manager |" time="0"/>
-  <testcase name="Then user is on home page" classname="| ksantosh1978 | Iphone2953 | Tom | Peter | Manager |" time="0.001"/>
+  <testcase name="Then user is on home page" classname="| ksantosh1978 | Iphone2953 | Tom | Peter | Manager |" time="0"/>
   <testcase name="Then user moves to new contact page" classname="| ksantosh1978 | Iphone2953 | Tom | Peter | Manager |" time="0"/>
   <testcase name="Then user enters contact details &quot;Tom&quot; and &quot;Peter&quot; and &quot;Manager&quot;" classname="| ksantosh1978 | Iphone2953 | Tom | Peter | Manager |" time="0"/>
   <testcase name="Then user moves to new deal page" classname="| ksantosh1978 | Iphone2953 | Tom | Peter | Manager |" time="0"/>
