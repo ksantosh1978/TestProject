@@ -72,11 +72,21 @@ formatter.step({
 });
 formatter.step({
   "line": 15,
+  "name": "user click on product page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 16,
+  "name": "click on the new product",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 17,
   "name": "Close the browser",
   "keyword": "Then "
 });
 formatter.examples({
-  "line": 17,
+  "line": 19,
   "name": "",
   "description": "",
   "id": "free-crm-create-contacts;free-crm-create-a-new-contact-scenario;",
@@ -89,7 +99,7 @@ formatter.examples({
         "lastname",
         "position"
       ],
-      "line": 18,
+      "line": 20,
       "id": "free-crm-create-contacts;free-crm-create-a-new-contact-scenario;;1"
     },
     {
@@ -100,14 +110,14 @@ formatter.examples({
         "Peter",
         "Manager"
       ],
-      "line": 19,
+      "line": 21,
       "id": "free-crm-create-contacts;free-crm-create-a-new-contact-scenario;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 19,
+  "line": 21,
   "name": "Free CRM Create a new contact scenario",
   "description": "",
   "id": "free-crm-create-contacts;free-crm-create-a-new-contact-scenario;;2",
@@ -181,6 +191,16 @@ formatter.step({
 });
 formatter.step({
   "line": 15,
+  "name": "user click on product page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 16,
+  "name": "click on the new product",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 17,
   "name": "Close the browser",
   "keyword": "Then "
 });
@@ -188,14 +208,14 @@ formatter.match({
   "location": "AddContacts.user_already_on_login_page()"
 });
 formatter.result({
-  "duration": 7222851000,
+  "duration": 8109403600,
   "status": "passed"
 });
 formatter.match({
   "location": "AddContacts.title_of_login_page_is_free_CRM()"
 });
 formatter.result({
-  "duration": 5937100,
+  "duration": 7463600,
   "status": "passed"
 });
 formatter.match({
@@ -212,28 +232,28 @@ formatter.match({
   "location": "AddContacts.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 171584900,
+  "duration": 263272200,
   "status": "passed"
 });
 formatter.match({
   "location": "AddContacts.user_clicks_on_login_button()"
 });
 formatter.result({
-  "duration": 2084799800,
+  "duration": 3813847700,
   "status": "passed"
 });
 formatter.match({
   "location": "AddContacts.user_is_on_hopme_page()"
 });
 formatter.result({
-  "duration": 4381800,
+  "duration": 5772900,
   "status": "passed"
 });
 formatter.match({
   "location": "AddContacts.user_moves_to_new_contact_page()"
 });
 formatter.result({
-  "duration": 1166498900,
+  "duration": 1693032900,
   "status": "passed"
 });
 formatter.match({
@@ -254,28 +274,42 @@ formatter.match({
   "location": "AddContacts.user_enters_contacts_details(String,String,String)"
 });
 formatter.result({
-  "duration": 1488401100,
+  "duration": 1590612300,
   "status": "passed"
 });
 formatter.match({
   "location": "AddContacts.user_moves_to_new_deal_page()"
 });
 formatter.result({
-  "duration": 1004471300,
+  "duration": 1121121700,
   "status": "passed"
 });
 formatter.match({
   "location": "AddContacts.user_enters_contacts_details(DataTable)"
 });
 formatter.result({
-  "duration": 286609300,
+  "duration": 289286100,
+  "status": "passed"
+});
+formatter.match({
+  "location": "AddContacts.user_click_on_product_page()"
+});
+formatter.result({
+  "duration": 911811100,
+  "status": "passed"
+});
+formatter.match({
+  "location": "AddContacts.click_on_the_new_product()"
+});
+formatter.result({
+  "duration": 909803500,
   "status": "passed"
 });
 formatter.match({
   "location": "AddContacts.close_the_browser()"
 });
 formatter.result({
-  "duration": 613930400,
+  "duration": 683835400,
   "status": "passed"
 });
 });

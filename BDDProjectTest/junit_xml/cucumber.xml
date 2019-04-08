@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="14.049466">
-<testcase classname="Free CRM Create Contacts" name="Free CRM Create a new contact scenario" time="14.049466">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="19.399263">
+<testcase classname="Free CRM Create Contacts" name="Free CRM Create a new contact scenario" time="19.399263">
 <system-out><![CDATA[Given user is already on Login Page.........................................passed
 When title of login page is Free CRM........................................passed
 Then user enters "ksantosh1978" and "Iphone2953"............................passed
@@ -10,6 +10,8 @@ Then user moves to new contact page.........................................pass
 Then user enters contact details "Tom" and "Peter" and "Manager"............passed
 Then user moves to new deal page............................................passed
 Then user enters deal details...............................................passed
+Then user click on product page.............................................passed
+Then click on the new product...............................................passed
 Then Close the browser......................................................passed
 ]]></system-out>
 </testcase>

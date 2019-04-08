@@ -112,13 +112,19 @@ public class AddContacts {
 	@Then("^user click on product page$")
 	public void user_click_on_product_page()
 	{
+		Actions action = new Actions(driver);
+		action.moveToElement(driver.findElement(By.xpath("//*[@id=\"navmenu\"]/ul/li[5]/a"))).build().perform();
 		driver.findElement(By.xpath("//*[@id=\"navmenu\"]/ul/li[5]/ul/li[2]/a")).click();
 	}
+	@Then("^click on the new product$")
+	public void click_on_the_new_product(){
+		driver.findElement(By.xpath("/html/body/table[2]/tbody/tr[1]/td[2]/table/tbody/tr/td/table/tbody/tr[1]/td[2]/input")).click();
 	
+	}
 
 	@Then("^Close the browser$")
 	public void close_the_browser() {
 		driver.quit();
 	}
-
+	
 }
