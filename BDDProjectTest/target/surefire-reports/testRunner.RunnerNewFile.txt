@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: testRunner.RunnerNewFile
 -------------------------------------------------------------------------------
-Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 17.603 sec - in testRunner.RunnerNewFile
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.256 sec - in testRunner.RunnerNewFile
