@@ -12,8 +12,9 @@ Scenario Outline: Free CRM Create a new contact scenario
 	Then user moves to new deal page 
 	Then user enters deal details 
 		| test deal | 1000 | 50 | 10 |
-	Then user click on product page	
-	Then click on the new product 
+	Then user click on product page 
+	Then user enters product details 
+		| test deal | 1000 | 50 | 10 | 5000 |		
 	Then Close the browser 
 	
 	Examples: 

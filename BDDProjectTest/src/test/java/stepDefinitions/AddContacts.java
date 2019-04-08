@@ -20,6 +20,7 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import cucumber.api.DataTable;
+import cucumber.api.PendingException;
 
 /**
  * @author Adya
@@ -28,16 +29,16 @@ import cucumber.api.DataTable;
 public class AddContacts {
 
 	WebDriver driver;
-	
 
 	@Given("^user is already on Login Page$")
 	public void user_already_on_login_page() {
-		//System.setProperty("jacob.dll.path","C:\\Users\\Adya\\Downloads\\jacob-1.19\\jacob-1.19\\jacob-1.19-x64.dll");
-		//LibraryLoader.loadJacobLibrary();
+		// System.setProperty("jacob.dll.path","C:\\Users\\Adya\\Downloads\\jacob-1.19\\jacob-1.19\\jacob-1.19-x64.dll");
+		// LibraryLoader.loadJacobLibrary();
 		// System.setProperty("webdriver.gecko.driver","C:\\Users\\Adya\\Downloads\\geckodriver-v0.24.0-win64\\geckodriver.exe");
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\Adya\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver",
+				"C:\\Users\\Adya\\Downloads\\chromedriver_win32\\chromedriver.exe");
 		driver = new ChromeDriver();
-		//driver=new FirefoxDriver();
+		// driver=new FirefoxDriver();
 		driver.get("https://classic.crmpro.com/index.html");
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.MINUTES);
 	}
@@ -109,22 +110,39 @@ public class AddContacts {
 		driver.findElement(By.id("commission")).sendKeys(dealValues.get(0).get(3));
 
 	}
+
 	@Then("^user click on product page$")
-	public void user_click_on_product_page()
-	{
+	public void user_click_on_product_page() {
 		Actions action = new Actions(driver);
 		action.moveToElement(driver.findElement(By.xpath("//*[@id=\"navmenu\"]/ul/li[5]/a"))).build().perform();
 		driver.findElement(By.xpath("//*[@id=\"navmenu\"]/ul/li[5]/ul/li[2]/a")).click();
 	}
+
 	@Then("^click on the new product$")
-	public void click_on_the_new_product(){
+	public void click_on_the_new_product() {
+		
+		Actions action1 = new Actions(driver);
+		action1.moveToElement(driver.findElement(By.xpath("/html/body/table[2]/tbody/tr[1]/td[2]/table/tbody/tr/td/table/tbody/tr[1]/td[1]"))).build().perform();
+		
+		
 		driver.findElement(By.xpath("/html/body/table[2]/tbody/tr[1]/td[2]/table/tbody/tr/td/table/tbody/tr[1]/td[2]/input")).click();
-	
+
+	}
+
+	@Then("^user enters product details$")
+	public void user_enters_product_details(DataTable prodDetails) {
+		List<List<String>> prodDetailsval = prodDetails.raw();
+		driver.findElement(By.id("name")).sendKeys(prodDetailsval.get(0).get(0));
+		driver.findElement(By.id("cost")).sendKeys(prodDetailsval.get(0).get(1));
+		driver.findElement(By.id("retail_value")).sendKeys(prodDetailsval.get(0).get(2));
+		driver.findElement(By.id("wholesale")).sendKeys(prodDetailsval.get(0).get(3));
+		driver.findElement(By.id("inventory_amount")).sendKeys(prodDetailsval.get(0).get(4));
+		
 	}
 
 	@Then("^Close the browser$")
 	public void close_the_browser() {
 		driver.quit();
 	}
-	
+
 }
