@@ -77,16 +77,28 @@ formatter.step({
 });
 formatter.step({
   "line": 16,
-  "name": "click on the new product",
+  "name": "user enters product details",
+  "rows": [
+    {
+      "cells": [
+        "test deal",
+        "1000",
+        "50",
+        "10",
+        "5000"
+      ],
+      "line": 17
+    }
+  ],
   "keyword": "Then "
 });
 formatter.step({
-  "line": 17,
+  "line": 18,
   "name": "Close the browser",
   "keyword": "Then "
 });
 formatter.examples({
-  "line": 19,
+  "line": 20,
   "name": "",
   "description": "",
   "id": "free-crm-create-contacts;free-crm-create-a-new-contact-scenario;",
@@ -99,7 +111,7 @@ formatter.examples({
         "lastname",
         "position"
       ],
-      "line": 20,
+      "line": 21,
       "id": "free-crm-create-contacts;free-crm-create-a-new-contact-scenario;;1"
     },
     {
@@ -110,14 +122,14 @@ formatter.examples({
         "Peter",
         "Manager"
       ],
-      "line": 21,
+      "line": 22,
       "id": "free-crm-create-contacts;free-crm-create-a-new-contact-scenario;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 21,
+  "line": 22,
   "name": "Free CRM Create a new contact scenario",
   "description": "",
   "id": "free-crm-create-contacts;free-crm-create-a-new-contact-scenario;;2",
@@ -196,11 +208,23 @@ formatter.step({
 });
 formatter.step({
   "line": 16,
-  "name": "click on the new product",
+  "name": "user enters product details",
+  "rows": [
+    {
+      "cells": [
+        "test deal",
+        "1000",
+        "50",
+        "10",
+        "5000"
+      ],
+      "line": 17
+    }
+  ],
   "keyword": "Then "
 });
 formatter.step({
-  "line": 17,
+  "line": 18,
   "name": "Close the browser",
   "keyword": "Then "
 });
@@ -208,14 +232,14 @@ formatter.match({
   "location": "AddContacts.user_already_on_login_page()"
 });
 formatter.result({
-  "duration": 8109403600,
+  "duration": 7613334300,
   "status": "passed"
 });
 formatter.match({
   "location": "AddContacts.title_of_login_page_is_free_CRM()"
 });
 formatter.result({
-  "duration": 7463600,
+  "duration": 9719600,
   "status": "passed"
 });
 formatter.match({
@@ -232,28 +256,28 @@ formatter.match({
   "location": "AddContacts.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 263272200,
+  "duration": 234908900,
   "status": "passed"
 });
 formatter.match({
   "location": "AddContacts.user_clicks_on_login_button()"
 });
 formatter.result({
-  "duration": 3813847700,
+  "duration": 2796703800,
   "status": "passed"
 });
 formatter.match({
   "location": "AddContacts.user_is_on_hopme_page()"
 });
 formatter.result({
-  "duration": 5772900,
+  "duration": 6650700,
   "status": "passed"
 });
 formatter.match({
   "location": "AddContacts.user_moves_to_new_contact_page()"
 });
 formatter.result({
-  "duration": 1693032900,
+  "duration": 1365615700,
   "status": "passed"
 });
 formatter.match({
@@ -274,42 +298,42 @@ formatter.match({
   "location": "AddContacts.user_enters_contacts_details(String,String,String)"
 });
 formatter.result({
-  "duration": 1590612300,
+  "duration": 1426037200,
   "status": "passed"
 });
 formatter.match({
   "location": "AddContacts.user_moves_to_new_deal_page()"
 });
 formatter.result({
-  "duration": 1121121700,
+  "duration": 896133000,
   "status": "passed"
 });
 formatter.match({
   "location": "AddContacts.user_enters_contacts_details(DataTable)"
 });
 formatter.result({
-  "duration": 289286100,
+  "duration": 311632700,
   "status": "passed"
 });
 formatter.match({
   "location": "AddContacts.user_click_on_product_page()"
 });
 formatter.result({
-  "duration": 911811100,
+  "duration": 826349200,
   "status": "passed"
 });
 formatter.match({
-  "location": "AddContacts.click_on_the_new_product()"
+  "location": "AddContacts.user_enters_product_details(DataTable)"
 });
 formatter.result({
-  "duration": 909803500,
+  "duration": 5043801700,
   "status": "passed"
 });
 formatter.match({
   "location": "AddContacts.close_the_browser()"
 });
 formatter.result({
-  "duration": 683835400,
+  "duration": 727650200,
   "status": "passed"
 });
 });

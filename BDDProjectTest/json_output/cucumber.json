@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "line": 21,
+        "line": 22,
         "name": "Free CRM Create a new contact scenario",
         "description": "",
         "id": "free-crm-create-contacts;free-crm-create-a-new-contact-scenario;;2",
@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8109403600,
+              "duration": 7613334300,
               "status": "passed"
             },
             "line": 5,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 7463600,
+              "duration": 9719600,
               "status": "passed"
             },
             "line": 6,
@@ -36,7 +36,7 @@
           },
           {
             "result": {
-              "duration": 263272200,
+              "duration": 234908900,
               "status": "passed"
             },
             "line": 7,
@@ -62,7 +62,7 @@
           },
           {
             "result": {
-              "duration": 3813847700,
+              "duration": 2796703800,
               "status": "passed"
             },
             "line": 8,
@@ -74,7 +74,7 @@
           },
           {
             "result": {
-              "duration": 5772900,
+              "duration": 6650700,
               "status": "passed"
             },
             "line": 9,
@@ -86,7 +86,7 @@
           },
           {
             "result": {
-              "duration": 1693032900,
+              "duration": 1365615700,
               "status": "passed"
             },
             "line": 10,
@@ -98,7 +98,7 @@
           },
           {
             "result": {
-              "duration": 1590612300,
+              "duration": 1426037200,
               "status": "passed"
             },
             "line": 11,
@@ -129,7 +129,7 @@
           },
           {
             "result": {
-              "duration": 1121121700,
+              "duration": 896133000,
               "status": "passed"
             },
             "line": 12,
@@ -141,7 +141,7 @@
           },
           {
             "result": {
-              "duration": 289286100,
+              "duration": 311632700,
               "status": "passed"
             },
             "line": 13,
@@ -164,7 +164,7 @@
           },
           {
             "result": {
-              "duration": 911811100,
+              "duration": 826349200,
               "status": "passed"
             },
             "line": 15,
@@ -176,22 +176,34 @@
           },
           {
             "result": {
-              "duration": 909803500,
+              "duration": 5043801700,
               "status": "passed"
             },
             "line": 16,
-            "name": "click on the new product",
+            "name": "user enters product details",
             "match": {
-              "location": "AddContacts.click_on_the_new_product()"
+              "location": "AddContacts.user_enters_product_details(DataTable)"
             },
+            "rows": [
+              {
+                "cells": [
+                  "test deal",
+                  "1000",
+                  "50",
+                  "10",
+                  "5000"
+                ],
+                "line": 17
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 683835400,
+              "duration": 727650200,
               "status": "passed"
             },
-            "line": 17,
+            "line": 18,
             "name": "Close the browser",
             "match": {
               "location": "AddContacts.close_the_browser()"
