@@ -24,7 +24,7 @@ import cucumber.api.junit.Cucumber;
 																																	// feature
 																																	// files
 		glue = { "stepDefinitions" }, // the path of the step definition files
-		plugin = { "pretty", "html:test-outout", "json:json_output/cucumber.json", "junit:junit_xml/cucumber.xml" }, // to
+		//plugin = { "pretty", "html:test-outout", "json:json_output/cucumber.json", "junit:junit_xml/cucumber.xml" }, // to
 																					// generate																													// different
 																														// types
 																														// of
