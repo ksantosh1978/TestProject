@@ -118,27 +118,27 @@ public class AddContacts {
 		driver.findElement(By.xpath("//*[@id=\"navmenu\"]/ul/li[5]/ul/li[2]/a")).click();
 	}
 
-	@Then("^click on the new product$")
-	public void click_on_the_new_product() {
-		
-		Actions action1 = new Actions(driver);
-		action1.moveToElement(driver.findElement(By.xpath("/html/body/table[2]/tbody/tr[1]/td[2]/table/tbody/tr/td/table/tbody/tr[1]/td[1]"))).build().perform();
-		
-		
-		driver.findElement(By.xpath("/html/body/table[2]/tbody/tr[1]/td[2]/table/tbody/tr/td/table/tbody/tr[1]/td[2]/input")).click();
-
-	}
-
-	@Then("^user enters product details$")
-	public void user_enters_product_details(DataTable prodDetails) {
-		List<List<String>> prodDetailsval = prodDetails.raw();
-		driver.findElement(By.id("name")).sendKeys(prodDetailsval.get(0).get(0));
-		driver.findElement(By.id("cost")).sendKeys(prodDetailsval.get(0).get(1));
-		driver.findElement(By.id("retail_value")).sendKeys(prodDetailsval.get(0).get(2));
-		driver.findElement(By.id("wholesale")).sendKeys(prodDetailsval.get(0).get(3));
-		driver.findElement(By.id("inventory_amount")).sendKeys(prodDetailsval.get(0).get(4));
-		
-	}
+//	@Then("^click on the new product$")
+//	public void click_on_the_new_product() {
+//		
+//		Actions action1 = new Actions(driver);
+//		action1.moveToElement(driver.findElement(By.xpath("/html/body/table[2]/tbody/tr[1]/td[2]/table/tbody/tr/td/table/tbody/tr[1]/td[1]"))).build().perform();
+//		
+//		
+//		driver.findElement(By.xpath("/html/body/table[2]/tbody/tr[1]/td[2]/table/tbody/tr/td/table/tbody/tr[1]/td[2]/input")).click();
+//
+//	}
+//
+//	@Then("^user enters product details$")
+//	public void user_enters_product_details(DataTable prodDetails) {
+//		List<List<String>> prodDetailsval = prodDetails.raw();
+//		driver.findElement(By.id("name")).sendKeys(prodDetailsval.get(0).get(0));
+//		driver.findElement(By.id("cost")).sendKeys(prodDetailsval.get(0).get(1));
+//		driver.findElement(By.id("retail_value")).sendKeys(prodDetailsval.get(0).get(2));
+//		driver.findElement(By.id("wholesale")).sendKeys(prodDetailsval.get(0).get(3));
+//		driver.findElement(By.id("inventory_amount")).sendKeys(prodDetailsval.get(0).get(4));
+//		
+//	}
 
 	@Then("^Close the browser$")
 	public void close_the_browser() {

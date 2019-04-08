@@ -76,29 +76,12 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.step({
-  "line": 16,
-  "name": "user enters product details",
-  "rows": [
-    {
-      "cells": [
-        "test deal",
-        "1000",
-        "50",
-        "10",
-        "5000"
-      ],
-      "line": 17
-    }
-  ],
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 18,
+  "line": 17,
   "name": "Close the browser",
   "keyword": "Then "
 });
 formatter.examples({
-  "line": 20,
+  "line": 19,
   "name": "",
   "description": "",
   "id": "free-crm-create-contacts;free-crm-create-a-new-contact-scenario;",
@@ -111,7 +94,7 @@ formatter.examples({
         "lastname",
         "position"
       ],
-      "line": 21,
+      "line": 20,
       "id": "free-crm-create-contacts;free-crm-create-a-new-contact-scenario;;1"
     },
     {
@@ -122,14 +105,14 @@ formatter.examples({
         "Peter",
         "Manager"
       ],
-      "line": 22,
+      "line": 21,
       "id": "free-crm-create-contacts;free-crm-create-a-new-contact-scenario;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 22,
+  "line": 21,
   "name": "Free CRM Create a new contact scenario",
   "description": "",
   "id": "free-crm-create-contacts;free-crm-create-a-new-contact-scenario;;2",
@@ -207,24 +190,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.step({
-  "line": 16,
-  "name": "user enters product details",
-  "rows": [
-    {
-      "cells": [
-        "test deal",
-        "1000",
-        "50",
-        "10",
-        "5000"
-      ],
-      "line": 17
-    }
-  ],
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 18,
+  "line": 17,
   "name": "Close the browser",
   "keyword": "Then "
 });
@@ -232,14 +198,14 @@ formatter.match({
   "location": "AddContacts.user_already_on_login_page()"
 });
 formatter.result({
-  "duration": 7613334300,
+  "duration": 7452410100,
   "status": "passed"
 });
 formatter.match({
   "location": "AddContacts.title_of_login_page_is_free_CRM()"
 });
 formatter.result({
-  "duration": 9719600,
+  "duration": 10606000,
   "status": "passed"
 });
 formatter.match({
@@ -256,28 +222,28 @@ formatter.match({
   "location": "AddContacts.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 234908900,
+  "duration": 304189900,
   "status": "passed"
 });
 formatter.match({
   "location": "AddContacts.user_clicks_on_login_button()"
 });
 formatter.result({
-  "duration": 2796703800,
+  "duration": 4336814900,
   "status": "passed"
 });
 formatter.match({
   "location": "AddContacts.user_is_on_hopme_page()"
 });
 formatter.result({
-  "duration": 6650700,
+  "duration": 7201400,
   "status": "passed"
 });
 formatter.match({
   "location": "AddContacts.user_moves_to_new_contact_page()"
 });
 formatter.result({
-  "duration": 1365615700,
+  "duration": 1217411000,
   "status": "passed"
 });
 formatter.match({
@@ -298,42 +264,35 @@ formatter.match({
   "location": "AddContacts.user_enters_contacts_details(String,String,String)"
 });
 formatter.result({
-  "duration": 1426037200,
+  "duration": 1591718400,
   "status": "passed"
 });
 formatter.match({
   "location": "AddContacts.user_moves_to_new_deal_page()"
 });
 formatter.result({
-  "duration": 896133000,
+  "duration": 896448000,
   "status": "passed"
 });
 formatter.match({
   "location": "AddContacts.user_enters_contacts_details(DataTable)"
 });
 formatter.result({
-  "duration": 311632700,
+  "duration": 322260300,
   "status": "passed"
 });
 formatter.match({
   "location": "AddContacts.user_click_on_product_page()"
 });
 formatter.result({
-  "duration": 826349200,
+  "duration": 1017949500,
   "status": "passed"
-});
-formatter.match({
-  "location": "AddContacts.user_enters_product_details(DataTable)"
-});
-formatter.result({
-  "duration": 1200134323300,
-  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"id\",\"selector\":\"name\"}\n  (Session info: chrome\u003d73.0.3683.86)\n  (Driver info: chromedriver\u003d2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform\u003dWindows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027ADYA\u0027, ip: \u002710.128.74.22\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_202\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\\WINDOWS\\TEMP\\scoped_dir1...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:49764}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}\nSession ID: ff9c40f8dfdef6f9e6f9d435fc683667\n*** Element info: {Using\u003did, value\u003dname}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat stepDefinitions.AddContacts.user_enters_product_details(AddContacts.java:135)\r\n\tat ✽.Then user enters product details(C:/Users/Adya/git/TestProject/BDDProjectTest/src/main/java/FeatureFiles/Contact.feature:16)\r\n",
-  "status": "failed"
 });
 formatter.match({
   "location": "AddContacts.close_the_browser()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 771111800,
+  "status": "passed"
 });
 });
