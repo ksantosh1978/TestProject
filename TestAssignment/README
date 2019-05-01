@@ -1,0 +1,8 @@
+Project has been created using Apache Maven 3.6.0 project using TestNG framework with Java language.
+Eclipse IDE has been used for project development
+Download the project in the local machine
+Maven and Java should be installed and configured in classpath of the local machine
+Goto the Command Prompt and map the project folder
+Run the command "mvn clean test" from the commaned line and test will start .
+
+Test Failed Scenarios-1.Triggered the POST request with new set of data and receievd the Status Code -200 .When i tried to verify the data but newly data not added.2-Triggered the DELETE request for selected data and receved the Status Code -200 but durng erification noticed  data has been not  deleted.
