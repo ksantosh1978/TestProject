@@ -1,4 +1,4 @@
-Project has been created using Apache Maven and TestNG framework with Java language.I have used Maven due to project build and dependency hadndling  fetaure and smplicity and TestNG for its great feature advanatges like-GOOD REPORT GENERATION,framework can be easily integrated with tools like Maven, Jenkins, etc,Annotations used in the testing are very easy to understand.
+Project has been created using Maven and TestNG framework with Java language.I have used Maven due to project build and dependency hadndling  fetaure and smplicity and TestNG for its great feature advanatges like-GOOD REPORT GENERATION,framework can be easily integrated with tools like Maven, Jenkins, etc,Annotations used in the testing are very easy to understand.
 Eclipse IDE has been used for project development.
 Download the project in the local machine and setup.
 Maven and Java should be installed and configured in classpath of the local machine.
