@@ -198,14 +198,14 @@ formatter.match({
   "location": "AddContacts.user_already_on_login_page()"
 });
 formatter.result({
-  "duration": 9349573700,
+  "duration": 11806112000,
   "status": "passed"
 });
 formatter.match({
   "location": "AddContacts.title_of_login_page_is_free_CRM()"
 });
 formatter.result({
-  "duration": 6721400,
+  "duration": 9089600,
   "status": "passed"
 });
 formatter.match({
@@ -222,28 +222,28 @@ formatter.match({
   "location": "AddContacts.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 178795100,
+  "duration": 327892600,
   "status": "passed"
 });
 formatter.match({
   "location": "AddContacts.user_clicks_on_login_button()"
 });
 formatter.result({
-  "duration": 4691363600,
+  "duration": 3348518500,
   "status": "passed"
 });
 formatter.match({
   "location": "AddContacts.user_is_on_hopme_page()"
 });
 formatter.result({
-  "duration": 4505000,
+  "duration": 6157700,
   "status": "passed"
 });
 formatter.match({
   "location": "AddContacts.user_moves_to_new_contact_page()"
 });
 formatter.result({
-  "duration": 1348334900,
+  "duration": 1625153200,
   "status": "passed"
 });
 formatter.match({
@@ -264,35 +264,35 @@ formatter.match({
   "location": "AddContacts.user_enters_contacts_details(String,String,String)"
 });
 formatter.result({
-  "duration": 1527029800,
+  "duration": 1738080300,
   "status": "passed"
 });
 formatter.match({
   "location": "AddContacts.user_moves_to_new_deal_page()"
 });
 formatter.result({
-  "duration": 896461700,
+  "duration": 1008407200,
   "status": "passed"
 });
 formatter.match({
   "location": "AddContacts.user_enters_contacts_details(DataTable)"
 });
 formatter.result({
-  "duration": 264456300,
+  "duration": 299084000,
   "status": "passed"
 });
 formatter.match({
   "location": "AddContacts.user_click_on_product_page()"
 });
 formatter.result({
-  "duration": 858420600,
+  "duration": 1026614500,
   "status": "passed"
 });
 formatter.match({
   "location": "AddContacts.close_the_browser()"
 });
 formatter.result({
-  "duration": 610263800,
+  "duration": 699355700,
   "status": "passed"
 });
 });
