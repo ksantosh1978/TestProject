@@ -1,14 +1,14 @@
 package Assignment;
 
-import org.json.simple.JSONObject;
+//import org.json.simple.JSONObject;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import static io.restassured.RestAssured.*;
-
-import io.restassured.RestAssured;
 import io.restassured.response.Response;
-import io.restassured.specification.RequestSpecification;
+
+import java.util.List;
+import java.util.Map;
+
 
 public class Testassignment {
 
